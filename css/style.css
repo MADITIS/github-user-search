@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-blue: hsl(227, 100%, 98%);
+    --blue-100 : hsl(212, 100%, 50%);
+    --light-blue-200: hsl(217, 20%, 51%);
+    --dark-blue-400: hsl(217, 35%, 45%);
+    --dark-blue-600: hsl(222, 41%, 20%);
+    --vary-dark-blue-200: hsl(217, 21%, 21%);
+    --very-dark-blue-400: hsl(220, 40%, 13%);
+    --font-size: 15px;
+}
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+body {
+    background-color: var(--very-dark-blue-400);
+    color: var(--light-blue);
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: var(--blue-100);
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-dark {
+    background-color: var(--ver-dark-blue-400);
+}
+
+
+.text-accent-not-available {
+    color: rgb(165, 164, 164);
+}
+.text-accent-available {
+    color: var(--white);
+}
+
+.bg-primary {
+    background-color: var(--dark-blue-600);
+}
+.column-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.p-2 {
+    padding-top: 2rem;
+}
+
+.container {
+    width: 45rem;
+    /* max-width: 80vw; */
+}
+
+.container .nav {
+    justify-content: space-between;
+}
+.flex-row {
+    display: flex;
+    align-items: center;
+}
+
+.bg-change {
+    display: flex;
+    gap: 1rem;
+}
+
+.search-container {
+    border-radius: 10px;
+}
+.search-form {
+    /* width: 100%;
+     */
+     /* flex:2; */
+     position: relative;
+     /* gap: 2rem; */
+     /* padding: 1rem 0.7rem; */
+     width: 100%;
+     padding: 0 1rem;
+
+
+}
+
+.search-form label {
+    position: absolute;
+    left: 4rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    transition: all 0.5s ease-in-out;
+    /* z-index: 0; */
+}
+
+
+label.move {
+    transform: translate(-50%, -150%);
+}
+
+.bg-dark {
+    background-color: var(--very-dark-blue-400);
+    border-radius: 10px;
+}
+img.search-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+#search {
+    width: 100%;
+    background-color: inherit;
+    /* outline: none; */
+
+    border: none;
+    height: 100%;
+    /* height: 20rem; */
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 1rem 1.5rem;
+}
+
+#search:focus{
+    outline: none;
+    color: white;
+}
+
+.bg-secondary {
+   background-color: var(--blue-100);
+}
+
+.btn {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    color: var(--white);
+    font-size: 1rem;
+    font-weight:600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgba(182, 182, 189,0.5);
+}
+
+.text-accent {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.profile img.profile-img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+.result-container {
+    border-radius: 10px;
+}
+.result-container .result-content {
+    padding: 2.5rem;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    gap: 2rem;
+}
+
+.result-container .result-content .profile-details {
+    gap: 5rem;
+    /* justify-content: space-between; */
+}
+
+.result-container .result-content .profile-details .top-details {
+    justify-content: space-between;
+}
+
+.result-container .result-content .profile-details .bottom-details .stats .stats-items {
+    padding: 1rem 2rem;
+    display: flex;
+    /* gap: 4rem;
+    jus */
+    justify-content: space-between;
+}
+
+.align-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: .9rem;
+}
+.bold {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.row {
+    /* gap: 7rem; */
+    justify-content: space-between;
+}
+
+.gap-1 {
+    gap: 1rem;
+} 
+.row img {
+    /* font-size: 0.9rem; */
+    width: 1.1rem;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+/* input {
+    background-color: transparent !important;
+} */
