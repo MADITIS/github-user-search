@@ -40,6 +40,10 @@ a {
     justify-content: center;
     align-items: center;
 }
+body {
+    flex-direction: column;
+
+}
 
 .bg-dark {
     background-color: var(--ver-dark-blue-400);
@@ -73,8 +77,10 @@ a {
     position: relative;
 }
 
-.container .nav {
+.nav {
     justify-content: space-between;
+    margin-bottom: 1rem;
+    width: 44%;
 }
 .flex-row {
     display: flex;
@@ -328,11 +334,7 @@ label.light {
     /* body {
         background-color: red;
     } */
-    .nav {
-        position: relative;
-        top: 0%;
-        left: 0%;
-    }
+
     .container {
         max-width: 98vw;
         padding: 2rem 1rem;
