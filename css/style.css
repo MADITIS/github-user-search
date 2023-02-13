@@ -79,8 +79,8 @@ body {
 
 .nav {
     justify-content: space-between;
-    margin-bottom: 1rem;
-    width: 44%;
+    /* margin-bottom: 1rem; */
+    /* width: 44%; */
 }
 .flex-row {
     display: flex;
