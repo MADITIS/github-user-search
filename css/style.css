@@ -323,7 +323,7 @@ label.light {
 
 /* mobile */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width:375px) {
     /* body {
         background-color: red;
     } */
