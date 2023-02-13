@@ -10,6 +10,7 @@ class GithubApi {
             }
             catch (err) {
                 console.log("some errr")
+                return false
             }
         } else {
             return false

@@ -202,7 +202,7 @@ async function setUpdata(name) {
                 removeThis.remove()
                 addData(data)
                 console.log(result)
-            }
+            } 
 }
 
 function getDate(d) {
