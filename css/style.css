@@ -24,7 +24,7 @@ body {
     color: var(--light-blue);
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    overflow-x: hidden;
     /* transition: all 0.5s ease-in-out; */
 }
 
@@ -330,7 +330,7 @@ label.light {
     } */
     .container {
         max-width: 98vw;
-        padding: 3rem 1rem
+        padding: 2rem 1rem
         /* flex-direction: column; */
         /* margin: auto; */
     }
@@ -340,18 +340,6 @@ label.light {
         align-self: flex-start;
         /* gap: 1rem; */
     }
-    .result-container .result-content {
-        /* flex-direction: column; */
-        /* grid-template-columns: 1fr; */
-        /* a-items: center; */
-        /* justify-content: center; */
-    }
-    /* .profile {
-        justify-self: center;
-    } */
-    /* .top-details {
-        grid-row: 1;
-    } */
     .profile {
         grid-row: 1;
 
