@@ -328,11 +328,17 @@ label.light {
     /* body {
         background-color: red;
     } */
+    .nav {
+        position: relative;
+        top: 0%;
+        left: 0%;
+    }
     .container {
         max-width: 98vw;
-        padding: 2rem 1rem
-        /* flex-direction: column; */
+        padding: 2rem 1rem;
+        /* flex-direction: column; 
         /* margin: auto; */
+        margin-left: 2rem;
     }
     .row {
         flex-direction: column;
