@@ -323,7 +323,7 @@ label.light {
 
 /* mobile */
 
-@media screen and (max-width:778px) {
+@media screen and (max-width:412px) {
     /* body {
         background-color: red;
     } */
@@ -335,6 +335,8 @@ label.light {
     }
     .row {
         flex-direction: column;
+        /* justify-self: end; */
+        align-self: flex-start;
         /* gap: 1rem; */
     }
     .result-container .result-content {
@@ -375,8 +377,12 @@ label.light {
     }
 
     .bottom-details {
-
+        /* width: 20rem; */
         transform: translate(-25%);
-
+    
+    }
+    .stats .stats-items {
+        /* width: 50vw; */
+        gap: 2rem;
     }
 }
