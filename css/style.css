@@ -24,6 +24,7 @@ body {
     color: var(--light-blue);
     height: 100vh;
     width: 100vw;
+    overflow: hidden;
     /* transition: all 0.5s ease-in-out; */
 }
 
@@ -323,13 +324,13 @@ label.light {
 
 /* mobile */
 
-@media screen and (max-width:412px) {
+@media screen and (max-width:450px) {
     /* body {
         background-color: red;
     } */
     .container {
         max-width: 98vw;
-        padding-top: 4rem;
+        padding: 3rem 1rem
         /* flex-direction: column; */
         /* margin: auto; */
     }
@@ -378,11 +379,15 @@ label.light {
 
     .bottom-details {
         /* width: 20rem; */
-        transform: translate(-25%);
+        transform: translate(-35%);
     
     }
     .stats .stats-items {
         /* width: 50vw; */
-        gap: 2rem;
+        gap: 1rem;
+    }
+    .stats {
+        max-width: 95%;
+
     }
 }
