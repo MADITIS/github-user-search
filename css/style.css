@@ -73,6 +73,7 @@ body {
 .container {
     /* width: 48rem; */
     /* max-width: 80vw; */
+    width: min(85%, 55rem);
     gap: 3rem;
     position: relative;
 }

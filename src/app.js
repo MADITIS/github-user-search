@@ -202,6 +202,7 @@ async function setUpdata(name) {
                 removeThis.remove()
                 addData(data)
                 console.log(result)
+                // changeMode()
             } 
 }
 
@@ -218,11 +219,7 @@ function getDate(d) {
 }
 
 let bgToggle = document.querySelector(".bg-change")
-// let bgChange = document.querySelector(".bg-change")
-bgToggle.addEventListener("click", changeMode)
-// bgToggle.addEventListener("mouseover", changeStyle)
-// bgToggle.addEventListener("mouseout", changeStyle)
-function changeMode(event) {
+function changeMode() {
     document.body.classList.toggle("light")
     document.querySelector(".search-container").classList.toggle("light")
     label.classList.toggle("light")
